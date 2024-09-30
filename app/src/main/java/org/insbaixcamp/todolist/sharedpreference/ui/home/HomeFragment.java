@@ -120,7 +120,6 @@ public class HomeFragment extends Fragment {
         todoAdapter.notifyItemRemoved(position);
         saveTodoListToPrefs(); // Guardar lista actualizada después de eliminar
         Toast.makeText(getContext(), "Tarea eliminada", Toast.LENGTH_SHORT).show();
-        //hola
     }
 
     // Método para actualizar el estado de la tarea (CheckBox)
